@@ -1,0 +1,26 @@
+public class wejsciowka {
+
+    public static void main(String[] args) {
+
+        String[] tab = new String[4];
+        tab[0] = "1";
+        tab[1] = "1";
+        tab[2] = "2";
+        tab[3] = "1";
+
+        sum(tab);
+    }
+
+    public static String sum(String[] tab) {
+
+        int a = 0;
+
+        for(int i = 0; i < 4; i++) {
+
+            a = a + Integer.parseInt(tab[i]);
+        }
+        System.out.println(a);
+
+        return null;
+    }
+}
